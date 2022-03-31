@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #2b6f37;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Digital dream', sans-serif;
+  font-weight: 900;
+}
+
+main {
+  border-radius: 30px;
+  background-color: #292828;
+}
+
+main .container {
+  width: 300px;
+  padding: 15px;
+}
+
+main .container .sementara {
+  margin: 10px auto;
+  width: 97%;
+  background-color: white;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  border-radius: 100px;
+  border: 10px solid white;
+  text-align: center;
+}
+
+main .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+main .container .row input {
+  color: black;
+  height: 40px;
+  border-radius: 100px;
+  border: none;
+  border-bottom: 2px solid black;
+  margin: 5px;
+  background-color: white;
+  width: 100%;
+}
+
+main .container .row input[type="button"], main .container .row input[class="calc-screen"] {
+  font-family: 'Digital dream', sans-serif;
+  font-weight: 900;
+  text-align: center;
+  font-size: 15px;
+}
+
+main .container .row .col-6:hover, main .container .row .col-3:hover {
+  background-color: #9fecec;
+}
+/*# sourceMappingURL=style.css.map */
